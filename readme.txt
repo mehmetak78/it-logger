@@ -11,11 +11,11 @@
       "proxy": "http://localhost:5000"
 - Establish Redux
     - Install dependencies
-        mehmetak@MEHMETs-MacBook-Pro it-logger % npm install redux redux-devtools-extension redux-thunk react-redux
+        mehmetak@MEHMETs-MacBook-Pro it-logger % npm install redux redux-devtools-extension redux-thunk react-redux  moment react-moment
     - Create a directory called "redux" under the folder "src"
         - Create a file called "store.js" in the "redux" folder.
         - Create a directory called "actions" in the "redux" folder
-            - Create a file called "actions.js" in the "actions" folder
+            - Create a file called "logActions.js" in the "actions" folder
             - Create a file called "actionTypes.js" in the "actions" folder
         - Create a directory called "reducers" in the "redux" folder
             - Create a file called "rootReducer.js" in "reducers" folder
@@ -24,7 +24,8 @@
         src
             redux
                 actions
-                    actions.js
+                    logActions.js
+                    techActions.js
                     actionTypes.js
                 reducers
                     logReducer.js
@@ -32,5 +33,20 @@
                     techReducer.js
                 store.js
 
-
+- Use Materializecss
+    https://materializecss.com/
+    - Install it instead of using cdn for this project.
+        npm install materialize-css
+    - Import in App.js
+        import "materialize-css/dist/css/materialize.min.css";
+        import M from "materialize-css/dist/js/materialize.min";
+    - To initialize Materialize JS, in App.js
+        useEffect(() => {
+            // Initialize Materizlize JS
+            M.AutoInit();
+        });
+    - For using the Material Design Icons
+        https://google.github.io/material-design-icons/
+        - Copy into the index.html
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
