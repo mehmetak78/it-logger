@@ -12,8 +12,8 @@ import {
 
 export const getLogs = () => async dispatch => {
     try {
-        //setLoading();
-        dispatch({type:SET_LOADING});
+        //setLoading();         // Doesn't work in this way.
+        dispatch(setLoading());
         const res = await fetch("/logs");
         if (res.ok) {
             const data = await res.json();
@@ -28,8 +28,7 @@ export const getLogs = () => async dispatch => {
     }
 };
 
-// Set loading to true
-// DOESN'T WORK !!!!!!!!!!!!!!
+
 export const setLoading = () => {
     return {
         type: SET_LOADING
