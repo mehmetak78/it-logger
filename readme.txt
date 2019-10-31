@@ -70,7 +70,8 @@
         };
 
         Logs.propTypes = {
-            log: PropTypes.object.isRequired
+            log: PropTypes.object.isRequired,
+            getLogs: PropTypes.func.isRequired
         };
 
         const mapStateToProps = state => (
@@ -84,6 +85,11 @@
         }
 
         export default connect(mapStateToProps,mapDispatchToProps())(Logs);
+
+- In general
+    - Write the action
+    - Write the reducer
+    - Connect component and use it
 
 - Use Materializecss
     https://materializecss.com/

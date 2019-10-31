@@ -9,24 +9,24 @@
     },
     {
       "id": 2,
-      "message": "Fixed hard drive on workstation 002",
+      "message": "Fixed hard drive osdfsadfasdfsdfsdfnMEHMET workstation 002",
       "attention": false,
       "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
+      "date": "2019-10-31T18:51:18.882Z"
     },
     {
-      "message": "1122 wireless down",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
+      "id": 3,
+      "message": "ghf",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
+      "tech": "Mustafa Ak",
+      "date": "2019-10-31T20:02:01.106Z"
+    },
+    {
+      "message": "ds",
+      "tech": "John Doe",
+      "attention": false,
+      "date": "2019-10-31T19:54:44.266Z",
+      "id": 4
     }
   ],
   "techs": [
@@ -37,13 +37,33 @@
     },
     {
       "id": 2,
-      "firstName": "Sam",
+      "firstName": "Sammy",
       "lastName": "Smith"
     },
     {
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Mehmet",
+      "lastName": "Ak",
+      "id": 4
+    },
+    {
+      "firstName": "Mustafa",
+      "lastName": "Ak",
+      "id": 5
+    },
+    {
+      "firstName": "dfgd",
+      "lastName": "sdfg",
+      "id": 6
+    },
+    {
+      "firstName": "SSS",
+      "lastName": "SSS",
+      "id": 7
     }
   ]
 }

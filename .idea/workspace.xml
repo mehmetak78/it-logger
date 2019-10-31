@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4619e67e-d39d-4724-81a6-af85ca045d4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/techs/TechSelectOptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logs/AddLogModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/AddLogModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logs/EditLogModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/EditLogModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logs/LogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/LogItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logs/Logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/Logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/techs/AddTechModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techs/AddTechModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/techs/TechItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techs/TechItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/techs/TechListModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techs/TechListModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/logActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/logActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/techActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/techActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/logReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/logReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/techReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/techReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/logs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/techs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/techs" />
       <recent name="$PROJECT_DIR$/src/components/logs" />
     </key>
   </component>
@@ -78,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572381955732</updated>
       <workItem from="1572381957106" duration="3279000" />
-      <workItem from="1572385281027" duration="14808000" />
+      <workItem from="1572385281027" duration="20609000" />
     </task>
     <task id="LOCAL-00001" summary="After Redux">
       <created>1572385069936</created>
@@ -101,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572469312488</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="After Redux">
+      <created>1572470000168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572470000168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

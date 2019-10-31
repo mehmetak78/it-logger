@@ -1,5 +1,9 @@
 import React, {useState} from 'react';
 import M from "materialize-css/dist/js/materialize.min.js"
+import {connect} from "react-redux"
+import {addLog} from "../../redux/actions/logActions";
+import PropTypes from "prop-types";
+import TechSelectOptions from "../techs/TechSelectOptions";
 
 const AddLogModal = props => {
 
@@ -7,12 +11,15 @@ const AddLogModal = props => {
     const [attention, setAttention] = useState(false);
     const [tech, setTech] = useState("");
 
+    const {addLog} = props;
+
     const onSubmit = (e) => {
         if (message === "" ||tech === "") {
             M.toast({html: "Please Enter a message and tech"})
         }
         else {
-            console.log(message, tech, attention);
+            addLog({message, tech, attention, date: new Date()});
+            M.toast({html: `Log added by ${tech}`});
             setMessage("");
             setTech("");
             setAttention(false);
@@ -34,9 +41,7 @@ const AddLogModal = props => {
                     <div className="input-field">
                         <select name="tech" value={tech} className="browser-default" onChange={e => setTech(e.target.value)}>
                             <option value="" disabled>Select Technician</option>
-                            <option value="John Doe" >John Doe</option>
-                            <option value="Sam Smith"  >Sam Smith</option>
-                            <option value="Sara Wilson"  >Sara Wilson</option>
+                            <TechSelectOptions/>
                         </select>
                     </div>
                 </div>
@@ -53,7 +58,7 @@ const AddLogModal = props => {
                 </div>
             </div>
             <div className="modal-footer">
-                <a href="#" onClick={onSubmit} className="modal-close waves-effect waves-light blue btn" >Enter</a>
+                <a href="#!" onClick={onSubmit} className="modal-close waves-effect waves-light blue btn" >Enter</a>
             </div>
         </div>
     );
@@ -65,5 +70,13 @@ const modalStyle = {
     height: "75%"
 };
 
+AddLogModal.propTypes = {
+    addLog: PropTypes.func.isRequired
+};
 
-export default AddLogModal;
+function mapDispatchToProps() {
+    return {addLog}
+}
+
+export default connect(null,mapDispatchToProps())(AddLogModal);
+
