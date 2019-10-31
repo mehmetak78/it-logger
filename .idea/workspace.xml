@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4619e67e-d39d-4724-81a6-af85ca045d4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/techs/TechSelectOptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logs/AddLogModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/AddLogModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logs/EditLogModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/EditLogModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logs/LogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/LogItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logs/Logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/Logs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/techs/AddTechModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techs/AddTechModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/techs/TechItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techs/TechItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/techs/TechListModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/techs/TechListModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/logActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/logActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/techActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/techActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/logReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/logReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/techReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/techReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572381955732</updated>
       <workItem from="1572381957106" duration="3279000" />
-      <workItem from="1572385281027" duration="20609000" />
+      <workItem from="1572385281027" duration="21054000" />
     </task>
     <task id="LOCAL-00001" summary="After Redux">
       <created>1572385069936</created>
@@ -124,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572470000168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed">
+      <created>1572552270218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572552270218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="After Redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="After Redux" />
+    <MESSAGE value="Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed" />
   </component>
 </project>
